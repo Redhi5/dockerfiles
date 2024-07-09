@@ -1,6 +1,6 @@
 ARG version
 FROM almalinux:${version:-8}
-#RUN cat /etc/*release
+#RUN cat /etc/*release  [aa OS ani thaelisthundhi.....]
 ARG COURSE=Docker
 ARG TRAINER=Sivakumar
 ARG Duration=120HRS
